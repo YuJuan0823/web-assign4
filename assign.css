@@ -1,0 +1,527 @@
+
+
+@media only screen and (min-width: 992px) {
+   #wrapper{
+      
+      max-width:991px;
+      width:100%;
+      display:flex;
+      flex-wrap: wrap;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:50px;
+
+      font-family:微軟正黑體;
+      
+   }
+   .icon img{
+      margin-bottom:10px;
+      width:100px;
+   }
+   #nav-info{
+      width:20%;
+      order:1;
+   }
+   #nav-info nav ul{
+      color:rgb(96,190,174);
+      font-size:2rem;
+      list-style-type: none;
+      padding-left:0px;
+   }
+   nav ul li{
+      padding-bottom:18px;
+   }
+   #nav-info aside{
+      color:rgb(87,87,87);
+      font-family:Georgia;
+   }
+   aside h5{
+      font-size:1rem;
+      text-transform: uppercase;
+   }
+   aside p{
+      font-size:0.8rem;
+      padding-right:100px;
+   }
+
+   #main{
+      width:80%;
+      order:2;
+   }
+   .pic{
+      float:right;
+      font-family:Georgia;
+      height:445px;
+
+   }
+
+   .poster img{
+      width:100%;
+      height:445px;
+   }
+   #titleA{
+      float:right;
+      display:inline-block;
+      position:relative;
+      top:-200px;
+      right:0px;
+      z-index:2;
+      
+      background-color:white;
+      font-size:2.2rem;
+      padding:15px;
+      line-height:30px;
+   }
+   #titleB{
+      float:right;
+      display:inline-block;
+      position:relative;
+      top:-140px;
+      right:-192px;
+      z-index:2;
+
+      color:white;
+      background-color:black;
+      font-size:2.2rem;
+      padding:15px;
+      line-height:30px;
+   }
+
+   #nd-nav{
+      display:flex;
+      flex-wrap:wrap;
+      width:100%;
+      
+   }
+   #nd-nav :nth-child(1) ,#nd-nav :nth-child(2), #nd-nav :nth-child(3){
+      border-right: 0.5px solid rgb(217,239,236);
+   }
+   
+   .option{
+      width:25%;
+      text-align:center;
+      background-color:rgb(239,248,247);
+      color:rgb(96,190,174);
+      
+      
+
+   }
+   .option h3{
+      font-size:2rem;
+      margin-top:10px;
+      
+   }
+   .option p{
+      font-size:1rem;
+      
+   }
+
+   #archives{
+      display:flex;
+      flex-wrap:wrap;
+   
+   }
+   .arti-with-pic{
+      width:25%;
+      padding:10px;
+   }
+   .img img{
+      width:100%;
+   }
+   .title{
+      color:rgb(96,190,174);
+      font-size:1.8rem;
+
+   }
+   .arti-with-pic time{
+      color:#AAA;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   #wrapper{
+      
+    
+      max-width:768px;
+      width:100%;
+      display:flex;
+      flex-wrap: wrap;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:50px;
+
+      font-family:微軟正黑體;
+      
+   }
+   
+   
+   aside{
+      display:none;
+   }
+   #nav-info{
+      display:flex;
+      width:100%;
+   }
+   .icon img{
+      width:100px;
+      padding-bottom:10px;
+   }
+   nav{
+       margin-left:25%;
+   }
+   nav ul li{
+      padding-right:20px;
+      font-size:1.7rem;
+   }
+   nav ul{
+      display:flex;
+      color:rgb(96,190,174);
+      list-style-type: none;
+   
+
+   }
+   #main{
+      width:100%;
+
+   }
+
+   .pic{
+      float:right;
+      font-family:Georgia;
+      height:445px;
+
+   }
+
+   .poster img{
+      width:100%;
+      height:445px;
+   }
+      #titleA{
+      float:right;
+      display:inline-block;
+      position:relative;
+      top:-200px;
+
+      z-index:2;
+      
+      background-color:white;
+      font-size:2.2rem;
+      padding:15px;
+      line-height:30px;
+   }
+   #titleB{
+      float:right;
+      display:inline-block;
+      position:relative;
+      top:-200px;
+      
+      z-index:2;
+
+      color:white;
+      background-color:black;
+      font-size:2.2rem;
+      padding:15px;
+      line-height:30px;
+   }
+   
+
+   #nd-nav{
+      display:flex;
+      flex-wrap:wrap;
+      width:100%;
+      
+   }
+   #nd-nav :nth-child(1) ,#nd-nav :nth-child(2), #nd-nav :nth-child(3){
+      border-right: 0.5px solid rgb(217,239,236);
+   }
+   
+   .option{
+      width:25%;
+      text-align:center;
+      background-color:rgb(239,248,247);
+      color:rgb(96,190,174);
+ 
+      
+
+   }
+   .option h3{
+      font-size:2rem;
+      margin-top:5px;
+      margin-bottom:5px;
+      
+   }
+   
+   
+   .option p{
+      display:none;
+   }
+
+   #archives{
+      display:flex;
+      flex-wrap:wrap;
+
+   
+   }
+   .arti-with-pic{
+      width:25%;
+      padding:10px;
+   }
+   .img img{
+      width:100%;
+   }
+   .title{
+      color:rgb(96,190,174);
+      font-size:1.8rem;
+   }
+   .arti-with-pic time{
+      color:#AAA;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   #wrapper{
+      
+    
+      max-width:480px;
+      width:100%;
+      display:flex;
+      flex-wrap: wrap;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:20px;
+
+      
+   }
+   
+   
+   aside{
+      display:none;
+   }
+   #nav-info{
+      display:flex;
+      width:100%;
+   }
+   .icon img{
+      width:60px;
+      padding-bottom:10px;
+   }
+   nav{
+      margin-left:13px;
+
+   }
+   nav ul li{
+      padding-right:20px;
+      font-size:1.7rem;
+   }
+   nav ul{
+      display:flex;
+      color:rgb(96,190,174);
+      list-style-type: none;
+      padding-left:0px;
+
+
+   }
+   #main{
+      width:100%;
+
+   }
+
+   .pic{
+      float:right;
+      font-family:Georgia;
+      height:248px;
+
+   }
+
+   .poster img{
+      width:100%;
+      height:248px;
+   }
+      #titleA{
+      float:right;
+      display:inline-block;
+      position:relative;
+      top:-64px;
+
+      z-index:2;
+      width:100%;
+      background-color:white;
+      font-size:1rem;
+      padding:10px;
+      line-height:1rem;
+   }
+   #titleB{
+      float:right;
+      display:inline-block;
+      position:relative;
+      top:-64px;
+      
+      z-index:2;
+      width:100%;
+      color:white;
+      background-color:black;
+      font-size:1rem;
+      padding:10px;
+      line-height:1rem;
+   }
+   
+
+   #nd-nav{
+      display:none;
+      
+   }
+   
+
+   #archives{
+      display:flex;
+      flex-wrap:wrap;
+      width:100%;
+
+   
+   }
+   .arti-with-pic{
+      width:50%;
+      padding-top:20px;
+      padding-bottom:20px;
+      padding-left:5px;
+      padding-right:5px;
+   }
+   .img img{
+      width:100%;
+   }
+   .title{
+      color:rgb(96,190,174);
+      font-size:1.8rem;
+   }
+   .arti-with-pic time{
+      color:#AAA;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+   #wrapper{
+      max-width:350px;
+      width:100%;
+      display:flex;
+      flex-wrap: wrap;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:10px;   
+   }
+   
+   
+   aside{
+      display:none;
+   }
+   #nav-info{
+      display:flex;
+      flex-wrap:wrap;
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      
+   }
+   nav{
+      order:1;
+      width:100%;
+      padding-left:10px;
+      
+   }
+   .icon{
+      order:2;
+      margin-left:auto;
+      margin-right:auto;
+   }
+   .icon img{
+      width:60px;
+
+   }
+   
+   nav ul li{
+      padding-right:10px;
+      font-size:1.4rem;
+   }
+   nav ul{
+      display:flex;
+      color:rgb(96,190,174);
+      list-style-type: none;
+      padding-left:0px;
+
+
+   }
+   #main{
+      width:100%;
+
+   }
+
+   .pic{
+      float:right;
+      font-family:Georgia;
+      height:248px;
+
+   }
+
+   .poster img{
+      width:100%;
+      height:248px;
+   }
+      #titleA{
+      float:right;
+      display:inline-block;
+      position:relative;
+      top:-64px;
+
+      z-index:2;
+      width:100%;
+      background-color:white;
+      font-size:1rem;
+      padding:10px;
+      line-height:1rem;
+   }
+   #titleB{
+      float:right;
+      display:inline-block;
+      position:relative;
+      top:-64px;
+      
+      z-index:2;
+      width:100%;
+      color:white;
+      background-color:black;
+      font-size:1rem;
+      padding:10px;
+      line-height:1rem;
+   }
+   
+
+   #nd-nav{
+      display:none;
+      
+   }
+   
+
+   #archives{
+      display:flex;
+      flex-wrap:wrap;
+      width:100%;
+
+   
+   }
+   .arti-with-pic{
+      width:100%;
+      padding-top:20px;
+      padding-bottom:20px;
+      padding-left:0px;
+      padding-right:0px;
+   }
+   .img img{
+      width:100%;
+   }
+   .title{
+      color:rgb(96,190,174);
+      font-size:1.8rem;
+   }
+   .arti-with-pic time{
+      color:#AAA;
+   }
+}
